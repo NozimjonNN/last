@@ -1,0 +1,152 @@
+
+
+.burger-menu-container {
+    position: relative;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5c7ea6; 
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+  }
+  
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+  }
+  
+  .hamburger-icon span {
+    display: block;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  
+  .close-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    background: #3a5f8a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease;
+    z-index: 1000; 
+  }
+  
+  .menu.open {
+    right: 0; 
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 20px 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  /* Основные стили для секции проектов */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.project-item {
+  flex: 1 1 calc(50% - 20px); /* Каждая карточка занимает 50% ширины */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-item h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.project-item p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.project-item .button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.project-item .button-container a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project-item .button-container a:hover {
+  background-color: #0056b3;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .project-item {
+    flex: 1 1 100%; /* На телефонах и планшетах карточки занимают 100% ширины */
+  }
+  
+  /* Чтобы кнопки оставались на своих местах, убираем перенос */
+  .project-item .button-container {
+    flex-direction: column; /* Кнопки одна под другой на узких экранах */
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-item h3 {
+    font-size: 20px; /* Уменьшаем шрифт заголовков на мобильных устройствах */
+  }
+
+  .project-item p {
+    font-size: 14px; /* Уменьшаем текст описания */
+  }
+
+  .project-item .button-container a {
+    padding: 8px 15px; /* Уменьшаем размер кнопок на телефонах */
+  }
+}

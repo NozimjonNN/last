@@ -1,0 +1,134 @@
+.contact-section {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+  }
+  
+  .contact-icon {
+    font-size: 24px;
+  }
+  
+  .contact-item a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  .contact-item a:hover {
+    color: #007bff;
+  }
+  
+  footer {
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-nav {
+    margin-top: 20px;
+  }
+  
+  .footer-nav a {
+    margin: 0 15px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }
+  /* Основные стили для секции проектов */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.project-item {
+  flex: 1 1 calc(50% - 20px); /* Каждая карточка занимает 50% ширины */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-item h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.project-item p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.project-item .button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.project-item .button-container a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project-item .button-container a:hover {
+  background-color: #0056b3;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .project-item {
+    flex: 1 1 100%; /* На телефонах и планшетах карточки занимают 100% ширины */
+  }
+  
+  /* Чтобы кнопки оставались на своих местах, убираем перенос */
+  .project-item .button-container {
+    flex-direction: column; /* Кнопки одна под другой на узких экранах */
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-item h3 {
+    font-size: 20px; /* Уменьшаем шрифт заголовков на мобильных устройствах */
+  }
+
+  .project-item p {
+    font-size: 14px; /* Уменьшаем текст описания */
+  }
+
+  .project-item .button-container a {
+    padding: 8px 15px; /* Уменьшаем размер кнопок на телефонах */
+  }
+}
