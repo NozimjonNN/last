@@ -6,6 +6,7 @@ export default function App() {
   return (
     <>
       <Farruh />
+      <h1>salom</h1>
     </>
   );
 }
