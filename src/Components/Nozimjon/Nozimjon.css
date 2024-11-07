@@ -249,3 +249,18 @@ nav ul li a:hover {
     font-size: 24px;
     margin-left: 10px;
 }
+
+/* panic */
+
+.stage-7 {
+    background-image: url(./Img/10.png);
+    padding: 100px 200px 100px 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.st6txt {
+    font-size: 24px;
+    color: white;
+    width: 50%;
+}
