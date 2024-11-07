@@ -1,0 +1,63 @@
+/* global coding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* components */
+
+.flex {
+    display: flex;
+}
+.all {
+    background: linear-gradient(286.41deg, rgba(2, 35, 53, 0.8) 3.63%, rgba(12, 55, 61, 0.8) 90.98%);
+    border: 1px solid #49B9E8;
+    padding: 100px 200px 100px 200px;
+    color: white;
+}
+
+/* cards */
+
+.miniCard {
+    background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.0539) 100%);
+    display: flex;
+    padding: 20px;
+    width: 285px;
+    height: 212px;
+    flex-direction: column;
+    border-radius: 9px;
+    border: 1px solid rgba(2, 35, 53, 0.8);
+    font-size: large;
+}
+.card {
+    background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.0539) 100%);
+    display: flex;
+    padding: 10px;
+    width: 387px;
+    height: 217px;
+    border-radius: 9px;
+    border: 1px solid rgba(2, 35, 53, 0.8);
+    margin-top: 20px;
+    flex-direction: column;
+    font-size: large;
+}
+.cardImg {
+    width: 50px;
+    height: 50px;
+}
+
+/* personal se */
+
+.p1-se-1 {
+    color: white;
+    font-size: 54px;
+}
+.p1-se-2 {
+    color: #49B9E8;
+}
+.p1-se-3 {
+    gap: 10px;
+}
