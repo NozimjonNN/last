@@ -10,9 +10,9 @@ function Asad(){
     <HeroConteyner/>
     <Navbar/>
    <OurStory/>
-<Capabilities/>
-<Footer/>
-<Footer2/>
+   <Capabilities/>
+    <Footer/>
+     <Footer2/>
 
     </>
 }
