@@ -14,6 +14,7 @@
 .bold { font-weight: 600; }
 .jcc { justify-content: center; }
 .aic { align-items: center; }
+.col { flex-direction: column; }
 .btn {
     padding: 10px 14px 10px 14px;
     border-radius: 9px;
@@ -188,4 +189,19 @@ nav ul li a:hover {
 .mt10 {
     margin-top: 50px;
     margin-left: 20px;
+}
+
+/* idk */
+
+.stage-4 {
+    background: linear-gradient(286.41deg, rgba(2, 35, 53, 0.8) 3.63%, rgba(12, 55, 61, 0.8) 90.98%);
+    padding: 100px 200px 100px 200px;
+}
+.st4 {
+    color: white;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.gap20 {
+    gap: 20px;
 }

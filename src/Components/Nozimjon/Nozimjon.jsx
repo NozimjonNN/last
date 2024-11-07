@@ -5,6 +5,10 @@ import c1 from './Img/4.png'
 import c2 from './img/5.png'
 import logo from './Img/3.png'
 import check from './Img/7.png'
+import st1 from './Img/stage-4/1.png'
+import st2 from './Img/stage-4/2.png'
+import st3 from './Img/stage-4/3.png'
+import st4 from './Img/stage-4/4.png'
 
 import Navbar from './components/navbar'
 import WhyUsSection from './components/whyUsSection'
@@ -60,6 +64,21 @@ export default function Nozimjon() {
                         <p className='chText'>А самое вкусное то, что твоя зарплата будет расти вместе с твоими навыками. Стаж не так важен.</p>
                     </div>
                     <button className='btn mt10'>Записаться на ознакомительный вебинар</button>
+                </div>
+                <div className="stage-4">
+                  <h1 className="p1-se-1"><span className="p1-se-2">ВАЖНО</span> ПОНИМАТЬ ЧТО</h1>
+                    <div className="flex aic st4 gap20">
+                        <img src={ st1 } alt="st1" />
+                        Искусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между собой направлений.
+                        <img src={ st2 } alt="st2" />
+                        Подготовка реально хороших специалистов требует времени, краткосрочные курсы эффекта не дают.
+                    </div>
+                    <div className="flex aic st4 gap20">
+                        Большинство менторов никогда не работали над реальными проектами. Они изучали все по видеоурокам и книжкам, и преподают без практики, что очень печально.
+                        <img src={ st3 } alt="st3" />
+                        На многих курсах преподают готовые/идеальные кейсы без всяких сложностей, поэтому студенты после таких курсов не могут решать реальные задачи на работе.
+                        <img src={ st4 } alt="st4" />
+                    </div>
                 </div>
         </>
     )
