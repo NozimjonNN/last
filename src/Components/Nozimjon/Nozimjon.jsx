@@ -9,6 +9,7 @@ import st1 from './Img/stage-4/1.png'
 import st2 from './Img/stage-4/2.png'
 import st3 from './Img/stage-4/3.png'
 import st4 from './Img/stage-4/4.png'
+import plus from './Img/8.png'
 
 import Navbar from './components/navbar'
 import WhyUsSection from './components/whyUsSection'
@@ -79,6 +80,30 @@ export default function Nozimjon() {
                         На многих курсах преподают готовые/идеальные кейсы без всяких сложностей, поэтому студенты после таких курсов не могут решать реальные задачи на работе.
                         <img src={ st4 } alt="st4" />
                     </div>
+                </div>
+                <div className="stage-5">
+                    <h1 className="p1-se-1">ПОЧЕМУ ИМЕННО НАШ КУРС?<span className="p1-se-2"><br /> ВСЁ ПРОСТО!</span></h1>
+                    <div className="idk flex gap20 v2">
+                        <img src={ plus } className='chImgV2' alt="plus" />
+                        <p className='chText'>Объясняем сложные вещи простым и доходчивым языком.</p>
+                    </div>
+                    <div className="idk flex gap20 v2">
+                        <img src={ plus } className='chImgV2' alt="plus" />
+                        <p className='chText'>Обучаем не просто языку программирования, или одной какой-то дисциплине, мы обучаем полностью всей специальности.</p>
+                    </div>
+                    <div className="idk flex gap20 v2">
+                        <img src={ plus } className='chImgV2' alt="plus" />
+                        <p className='chText'>Ознакомляем с содержанием урока только в режиме реального времени. Ты сможешь сразу задать вопрос и тут же получить ответы. Мы всегда будем рядом. </p>
+                    </div>
+                    <div className="idk flex gap20 v2">
+                        <img src={ plus } className='chImgV2' alt="plus" />
+                        <p className='chText'>Обучение ведет ведущий и действующий специалист в области искусственного интеллекта в Южной Корее.</p>
+                    </div>
+                    <div className="idk flex gap20 v2">
+                        <img src={ plus } className='chImgV2' alt="plus" />
+                        <p className='chText'>Обучение проходит в группе по 15 человек, которая внутри делится на 3 команды, и каждая команда выполняет собственный проект. Таким образом, студенты смогут прочувствовать тонкости командной разработки, и уже на этапе обучения окунуться в рабочую атмосферу AI специалиста.</p>
+                    </div>
+                    <button className="btn mt10">Записаться на ознакомительный вебинар</button>
                 </div>
         </>
     )

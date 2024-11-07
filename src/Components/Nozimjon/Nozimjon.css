@@ -205,3 +205,20 @@ nav ul li a:hover {
 .gap20 {
     gap: 20px;
 }
+
+/* st-5 */
+
+.stage-5 {
+    background-image: url(./Img/9.png);
+    padding: 100px 200px 100px 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.v2 {
+    background: none;
+}
+.chImgV2 {
+    width: 50px;
+    height: 50px;
+}
