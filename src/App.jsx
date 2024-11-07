@@ -1,10 +1,10 @@
 import React from "react";
-import Nozimjon from "./Components/Nozimjon/Nozimjon";
 
+import Ruxsora from "./Components/Ruxsora/Ruxsora";
 export default function App() {
   return(
     <>
-      <Nozimjon />
+      <Ruxsora/>
     </>
   )
 }
