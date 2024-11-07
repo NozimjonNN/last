@@ -1,0 +1,49 @@
+.hero-section {
+    height: 100vh;
+    background-image: url('/path/to/your-image.jpg'); /* Set your background image here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .logo span {
+    color: #56ccf2; /* Accent color for 'T' */
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
+  .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    font-size: 0.9rem;
+    color: #bbb;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
