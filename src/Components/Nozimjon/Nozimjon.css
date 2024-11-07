@@ -164,5 +164,28 @@ nav ul li a:hover {
 /* tired */
 
 .stage-3 {
-    background: linear-gradient(286.41deg, #022335 3.63%, #043A41 90.98%);
-} 
+    background-image: url(./Img/6.png);
+    padding: 100px 200px 100px 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.idk {
+    padding: 10px;
+    margin: 15px 0 0 15px;
+    width: 692px;
+    background: linear-gradient(90deg, rgba(31, 63, 77, 0.53) 52.08%, rgba(31, 75, 94, 0) 100%);
+    border-radius: 8px;
+}
+.chImg {
+    width: 70px;
+    height: 50px;
+}
+.chText {
+    font-size: 25px;
+    color: white;
+}
+.mt10 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
